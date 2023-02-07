@@ -18,10 +18,10 @@ This entire assignment is written in C. ( gcc Compiler 9.3 is recommended for co
 --> To run: use .exe file to run (./main.exe in my case)
 
 ### In Ubuntu terminal :
---> Create a folder to save all the .c .h files
---> cd <folder>
---> To compile: gcc -o main main.c lllifo.c lllifo.h cbfifo.c cbfifo.h test_lllifo.c test_lllifo.h test_cbfifo.c test_cbfifo.h -Wall -Werror
---> To run: ./main
+####--> Create a folder to save all the .c .h files
+####--> cd <folder>
+####--> To compile: gcc -o main main.c lllifo.c lllifo.h cbfifo.c cbfifo.h test_lllifo.c test_lllifo.h test_cbfifo.c test_cbfifo.h -Wall -Werror
+####--> To run: ./main
 
 
 
