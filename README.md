@@ -17,13 +17,23 @@ This entire assignment is written in C. ( gcc Compiler 9.3 is recommended for co
 --> Source functions were written in src file
 
 --> To compile: I used make command in VS Code terminal which takes care of compiling all the src files
+
 --> To run: use .exe file to run (./main.exe in my case)
 
 ### In Ubuntu terminal :
 --> Create a folder to save all the .c .h files
+
 --> cd <folder>
+  
 --> To compile: gcc -o main main.c lllifo.c lllifo.h cbfifo.c cbfifo.h test_lllifo.c test_lllifo.h test_cbfifo.c test_cbfifo.h -Wall -Werror
+  
 --> To run: ./main
+  
+## Overview
+
+### Stack Implementation Using Linked List
+  The lllifo implementation will be capable of growing dynamically through an efficient use of malloc().
+  The caller will suggest an initial capacity when the LIFO is created, but if the caller subsequently attempts to push more elements onto the LIFO than the current     capacity would support, lllifo will silently increase its capacity up to the limits of available memory. For simplicity, the capacity of an lllifo instance will not   shrink until the LIFO is destroyed.
 
 
 
