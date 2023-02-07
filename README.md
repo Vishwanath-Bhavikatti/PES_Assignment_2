@@ -12,8 +12,10 @@ This entire assignment is written in C. ( gcc Compiler 9.3 is recommended for co
 
 ## Program execution:
 ### In Visual studio Code : 
---> Created a C project in VS Code \n
+--> Created a C project in VS Code 
+
 --> Source functions were written in src file
+
 --> To compile: I used make command in VS Code terminal which takes care of compiling all the src files
 --> To run: use .exe file to run (./main.exe in my case)
 
