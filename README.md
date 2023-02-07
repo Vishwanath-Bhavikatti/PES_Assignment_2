@@ -37,6 +37,7 @@ This entire assignment is written in C. ( gcc Compiler 9.3 is recommended for co
   The caller will suggest an initial capacity when the LIFO is created, but if the caller subsequently attempts to push more elements onto the LIFO than the current     capacity would support, lllifo will silently increase its capacity up to the limits of available memory. For simplicity, the capacity of an lllifo instance will not   shrink until the LIFO is destroyed.
   
   ###The FIFO should implement the following API:
+  
    lllifo_t *lllifo_create(int capacity);  // Creates a list with nodes of given capacity and returns list
    
    int lllifo_push(lllifo_t *lifo, void *element); // Pushes an element to the list and returns the length of the list 
@@ -62,6 +63,17 @@ This entire assignment is written in C. ( gcc Compiler 9.3 is recommended for co
   size_t cbfifo_capacity(); // returns capacity of queue
  
 
+##Test Functions
+
+  ### test_lllifo.c() 
+  
+  The function involves different test cases within my bandwidth to check the proper working of lllifo.c function. 
+  
+  ### test_cbfifo.c()
+  
+  The function involves different test cases within my bandwidth to check the proper working of cbfifo.c function. 
+  
+  
 
 
 
